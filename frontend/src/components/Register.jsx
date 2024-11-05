@@ -22,7 +22,7 @@ function Register() {
             alert('Registration successful! You can now login.');
             navigate('/login');
         } catch (error) {
-            alert(error.response?.data?.message || 'Error during registration');
+            alert(error.response?.data?.message || 'Error during on registration');
         }
     };
 
